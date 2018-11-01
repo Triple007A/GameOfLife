@@ -69,24 +69,27 @@ namespace GameOfLife
                                 Patterns.Blinker(grid, x, y);
                                 break;
                             case 6:
-                                Patterns.Beacon(grid, x, y);
+                                Patterns.Toad(grid, x, y);
                                 break;
                             case 7:
-                                Patterns.Pulsar(grid, x, y);
+                                Patterns.Beacon(grid, x, y);
                                 break;
                             case 8:
-                                Patterns.Pentadecathlon(grid, x, y);
+                                Patterns.Pulsar(grid, x, y);
                                 break;
                             case 9:
-                                Patterns.LightweightSpaceship(grid, x, y);
+                                Patterns.Pentadecathlon(grid, x, y);
                                 break;
                             case 10:
-                                Patterns.R_pentomino(grid, x, y);
+                                Patterns.LightweightSpaceship(grid, x, y);
                                 break;
                             case 11:
-                                Patterns.Diehard(grid, x, y);
+                                Patterns.R_pentomino(grid, x, y);
                                 break;
                             case 12:
+                                Patterns.Diehard(grid, x, y);
+                                break;
+                            case 13:
                                 Patterns.Acorn(grid, x, y);
                                 break;
                             default:
@@ -164,13 +167,13 @@ namespace GameOfLife
             Console.WriteLine("4. Boat");
             Console.WriteLine("5. Blinker");
             Console.WriteLine("6. Toad");
-            Console.WriteLine("6. Beacon");
-            Console.WriteLine("7. Pulsar");
-            Console.WriteLine("8. Pentadecathlon");
-            Console.WriteLine("9. Lightweight Spaceship");
-            Console.WriteLine("10. R-pentomino");
-            Console.WriteLine("11. Diehard");
-            Console.WriteLine("12. Acorn");
+            Console.WriteLine("7. Beacon");
+            Console.WriteLine("8. Pulsar");
+            Console.WriteLine("9. Pentadecathlon");
+            Console.WriteLine("10. Lightweight Spaceship");
+            Console.WriteLine("11. R-pentomino");
+            Console.WriteLine("12. Diehard");
+            Console.WriteLine("13. Acorn");
         }
     }
 }
